@@ -1,0 +1,32 @@
+---
+title: "Watts Bar Walleye"
+subtitle: "Brittnany Graham | Graduate Student UT - Knoxville"
+image: Brittnany Walleye.jpg
+about: # https://quarto.org/docs/websites/website-about.html
+  template: jolla
+  image-shape: rectangle
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/Brittnany-Graham
+---
+
+## Project Background
+
+If you love walleye fishing, you have a great opportunity to contribute to a meaningful research project that will help guide TWRA management of walleye moving forward!
+
+Between the 1980's - 2011, the Tennessee Wildlife Resources Agency (TWRA) were stocking sauger, a popular sportfish amongst anglers. However, due to inconsistent and unpredictable spawning success, TWRA made the decision to change their stocking practices to stocking walleye. 
+
+This is where my project comes in! In partnership with TWRA (shoutout to Mike Jolley and Joey Root of Region 3), we will be deploying passive acoustic receivers throughout Watts Bar Reservoir, and surgically implanting acoustic transmitters into walleye to start tracking their movements throughout the reservoir!
+
+
+## About Me
+
+I'm a first year graduate student at the University of Tennessee - Knoxville, under the advisement of Dr. Lisa Izzo. Part of the School of Natural Resources, I'm obtaining my M.S. in fisheries science! My project will be documenting habitat use and spawning in walleye (Sander vitreus) in Watts Bar Reservoir.
+
+## Education
+
+M.S. Fisheries Science, University of Tennessee - Knoxville | Knoxville, TN | August 2024 - Present
+
+B.S. Marine Biology, College of Charleston | Charleston, SC | 2016 - 2020
+

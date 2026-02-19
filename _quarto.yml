@@ -1,0 +1,41 @@
+project:
+  type: website
+
+website:
+  title: "Watts Bar Walleye Project"
+  open-graph: true # https://quarto.org/docs/websites/website-tools.html#open-graph
+  page-footer: "Made with science, ❤️, and Quarto"
+  google-analytics: "G-7WF0FMD3SS"
+  navbar:
+    right:
+      - text: Contact
+        href: Contact.qmd
+      - text: Home
+        href: index.qmd
+      - text: Project Methods
+        href: Project Methods_2.qmd
+      - text: How Can You Help?
+        href: How can you help Page.qmd
+      - text: Acknowledgements
+        menu: 
+        - Acknowledgements Page.qmd
+        - Angler Contributions.qmd
+      - text: Media
+        menu:
+        - Media and Press.qmd
+        - test.qmd
+      - text: Data
+        href: data.qmd
+      
+format:
+  html:
+    backgroundcolor: "#023743FF"
+    fontcolor: "white"
+    linkcolor: "#689b81"
+    theme: [cosmo, styles.scss]
+
+
+
+
+
+

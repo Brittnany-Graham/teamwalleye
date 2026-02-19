@@ -1,0 +1,36 @@
+---
+title: "Acoustic Telemetry"
+editor: visual
+lightbox: true
+---
+
+## What is it?
+
+Acoustic telemetry, simply, is the use of sound to track aquatic animals through water!
+
+![Graphic representation of how acoustic telemetry works. An acoustic receiver will detect a signal from an acoustic transmitter implanted inside the walleye.](Telemetry%20visual.jpg)
+
+## Acoustic Transmitters
+
+Acoustic transmitters are small tags we surgically implant into the belly cavity of the walleye.
+Every 60-120 seconds, there's a signal we call a "ping" that is transmitted out into the water column, and if it's passing by a receiver, will be logged and used later to track the path of the fish.
+These transmitters will last for a total of two years.
+
+Pretty cool, right?
+
+![This is what the acoustic transmitters look like.](transmitter%20only.jpg){fig-align="center" width="50%"}
+
+## How we achieve this
+
+To achieve this, we use acoustic receivers for long term, continuous tracking of aquatic animals!
+Since the receivers are always on, they are constantly recording temperature and signals from acoustic transmitters that are implanted within the walleye.
+
+![This is an acoustic receiver.](receiver%20image.jpg){fig-align="center" width="300"}
+
+## How will I know if I've caught a fish part of this study?
+
+Wonderful question!
+All walleye that are tagged will have an orange loop tag between its first and second dorsal fin (see below)!
+This tag will have a phone number and loop tag number on it, so when you call it in, we can quickly identify the walleye!
+
+![Walleye photo credits to the Wisconsin Cooperative Fishery Research Unit (WCFRU)](Walleye%20Loop%20Tag.png){fig-align="center" width="75%"}

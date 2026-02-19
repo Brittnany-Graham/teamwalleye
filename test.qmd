@@ -1,0 +1,21 @@
+---
+title: "Field Photo Gallery"
+editor: visual
+lightbox: true
+---
+
+
+::: {style="display: flex; flex-wrap: wrap; gap: 10px"}
+![Brittnany Graham](Field Photo Gallery/brittnany with walleye.jpg){width="30%"}
+![Walleye surgery with Brandon Simcox of TWRA Region 3](Field Photo Gallery/inserting acoustic tag.jpg){width="45%"}
+![Lab photo! Featuring Dr. Lisa Izzo and Adam Bajo-Walker](Field Photo Gallery/lisa, adam and britt.jpg){width="30%"}
+![Walleye with sutures](Field Photo Gallery/walleye with sutures.jpg){width="30%"}
+![Lexie Scott and Caleb Mason assisting in receiver recovery](Field Photo Gallery/lexie and cbass.jpg){width="30%"}
+![Sunrise on the Emory River](Field Photo Gallery/sunrise on emory.jpg){width="30%"}
+![Sunrise on Watts Bar Reservoir](Field Photo Gallery/sunrise on watts bar.jpg){width="30%"}
+![Receiver deployment](Field Photo Gallery/receiver deployment.jpg){width="30%"}
+![Bryozoan growing on a receiver mount](Field Photo Gallery/Receiver pre-download.jpg){width="30%"}
+:::
+
+
+

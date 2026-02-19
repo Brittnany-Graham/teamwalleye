@@ -1,0 +1,26 @@
+---
+title: "Angler Contributions"
+editor: visual
+lightbox: true
+---
+
+### This page is dedicated to the anglers who have contributed to the project!
+::: {style="display: flex; flex-wrap: wrap; gap: 10px"}
+![Angler Billy Gunter](Billy Gunter.jpg){fig-align="center"}
+
+![Angler Jose Francisco](Jose Francisco.jpg){fig-align="center"}
+
+![Angler David Keyes](David Keyes.jpg){fig-align="center"}
+:::
+
+
+
+
+
+
+
+
+
+
+
+

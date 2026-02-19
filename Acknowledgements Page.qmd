@@ -1,0 +1,22 @@
+---
+title: "Acknowledgements"
+editor: visual
+---
+
+## I want to give proper acknowledgements to all who have been involved with this project!
+
+I want to start off by thanking my advisor, Dr. Lisa Izzo, who has been a great mentor throughout my graduate career. I also want to thank my lab mates for their help throughout this project!
+
+I would like to thank the Herbert College of Agriculture and School of Natural Resources in which a large portion of my funding originates!
+
+![](Herbert%20College%20of%20Agriculture-Logo%20(RGB).jpg){fig-align="center" width="50%"}
+
+I would also like to thank TWRA for their collaboration and assistance in field work and expanding my project! Special thanks to Joey Root and Mike Jolley for their endless knowledge of Watts Bar Reservoir and their excitement for the project!
+
+![](TWRA%20Logo_.jpg){fig-align="center" width="45%"}
+
+Thank you to Innovasea, our vendor we purchase a large portion of our gear from and their assistance in the field!
+
+![](innovasea%20logo%20white%20background.jpg){fig-align="center" width="50%"}
+
+Last, but not least, I would like to thank **you**, the public for your support and collaboration during this project!
