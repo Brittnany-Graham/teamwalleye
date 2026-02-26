@@ -2,10 +2,362 @@
 title: "Data"
 author: "Brittnany Graham"
 editor: visual
+execute:
+  echo: false
+  message: false
+  warning: false
+  results: 'hide'
 ---
 
-## This is just a test
+## Interactive Temperature Plots
 
-750 x 750 unlocked ratio will work for a map
+::: {.callout-note appearance="simple"}
+## This website still updates as data comes in. This is to reflect and document the duration of my study, so this will continuously change as I gather more data! :)
+:::
 
-![](){width="750" height="750"}
+These are *interactive plots* because I believe that data exploration is supposed to be fun!
+You can scroll the bar at the bottom of each graph to look at the temperature changes during a specific month, or you can tap at any point on the line and you will be able to see the temperature for that specific day and time!
+
+```{r}
+library(tidyverse)
+library(ggpubr)
+library(stringr)
+library(viridis)
+#install.packages("plotly")
+library(plotly)
+```
+
+```{r}
+temp_csv_files <- list.files(path = "C:/Users/bgraha33/OneDrive - University of Tennessee/Desktop/New Dataset/Temperature CSV Files", pattern = '\\.csv$', full.names = TRUE)
+
+
+temp_list <- map(temp_csv_files, read.csv)
+combined_temp_data <- bind_rows(temp_list)
+
+
+temp <- combined_temp_data
+
+#converting it to Fahrenheit
+
+temp <- temp %>%
+  mutate(TemperatureF = TemperatureC * 9/5 + 32)
+
+# Rounding up to the nearest whole number
+
+temp <- temp %>%
+  mutate(TemperatureF = round(TemperatureF))
+
+
+## Clinch River
+
+## Receiver 802012
+
+clinch_river_temp <- temp %>%
+  filter(ReceiverNumber == "802012")
+
+clinch_river_temp$DateAndTimeUTC <- mdy_hm(clinch_river_temp$DateAndTimeUTC)
+clinch_river_temp$Date <- mdy(clinch_river_temp$Date)
+
+```
+
+## Temperature of Emory River
+
+::: callout-important
+## The Emory River experienced record highs and record lows during 2025.
+:::
+
+This is showing the general temperature of the Emory River.
+As you can see, the temperature gets very warm during the summer, which means this could explain why Walleye might leave the area.
+
+```{r}
+emory_temp <- temp %>%
+  filter(ReceiverNumber == "802023")
+
+# Changed to posixct
+
+emory_temp$DateAndTimeUTC <- mdy_hm(emory_temp$DateAndTimeUTC)
+
+emory_temp$Date <- mdy(emory_temp$Date)
+
+## Graphing it now
+
+emory_temp_plot <- plot_ly(
+  data = emory_temp, # dataframe
+  x = ~DateAndTimeUTC, # X-axis variable (Date and Time so it keeps the raw data)
+  y = ~TemperatureF, #Y-axis variable (Temperature column)
+  type = "scatter", # scatter type is used for lines in plotly
+  mode = "lines", # Draw as a line (not markers)
+  
+  # Color the line by temperature (continuous gradient)
+  line = list(
+    color = "steelblue",
+    width = 1.5
+  ),
+  
+  # Custom hover text
+  text = ~paste(
+    "Date:", format(DateAndTimeUTC, "%b %d, %Y %H:%M"),
+    "<br>Temperature:", 
+    round(TemperatureF, 2), "°F"
+  ),
+  hoverinfo = "text"  # Only show our custom tooltip
+)
+
+## Layout formatting
+
+emory_temp_plot <- emory_temp_plot %>%
+  layout(
+    # Title Formatting
+    title = list(
+      text = "<b>Emory River Daily Temperature<b>",
+      x = 0.5, # centering the title
+      y = 0.95 # pulling it down 0 = bottom, 1 = top of graph
+    ),
+  # X-Axis settings
+  xaxis = list(
+    title = "<b>Month<b>",
+    type = "date",
+    range = c( 
+      # Forces x-axis to match the actual dataset range
+      min(emory_temp$DateAndTimeUTC),
+      max(emory_temp$DateAndTimeUTC)
+    ),
+    dtick = "M1", # one tick per month
+    tickformat = "%b<br>%Y", # Format: Mar
+                                    #  2025
+    rangeslider = list(visible = TRUE) # adds zoom slider (optional but recommended)
+  ),
+## Y-axis labels
+  yaxis = list(
+   title = "<b> Temperature(°F)</b>",
+   range = c(30, 90),
+   dtick = 5
+  ),
+# Lethal limit dashed line
+shapes = list(
+  list(
+    type = "line",
+    x0 = min(emory_temp$DateAndTimeUTC),
+    x1 = max(emory_temp$DateAndTimeUTC),
+    y0 = 81,
+    y1 = 81,
+    line = list(
+      dash = "dash",
+      width = 2,
+      color = "darkorange"
+    )
+  )
+),
+# label for lethal line
+annotations = list(
+  list(
+    x = max(emory_temp$DateAndTimeUTC),
+    y = 83,
+    text = "Lethal Thermal Limit (81°F)",
+    showarrow = FALSE,
+    xanchor = "right"
+  )
+),
+plot_bgcolor = "white",
+paper_bgcolor = "white",
+showlegend = FALSE
+  )
+
+emory_temp_plot
+```
+
+## Temperature of Tennessee River - Near Browder Shoals
+
+The area is also known as Browder Bend or colloquially understood as the area near the A-Frame house.
+
+The temperature in this area doesn't quite reach the lethal limit, but toes the line during the summer.
+
+```{r}
+tn_river <- temp %>%
+  filter(ReceiverNumber == "802025")
+tn_river$DateAndTimeUTC <- mdy_hm(tn_river$DateAndTimeUTC)
+tn_river$Date <- mdy(tn_river$Date)
+
+## Graphing it now
+
+tn_temp_plot <- plot_ly(
+  data = tn_river, # dataframe
+  x = ~DateAndTimeUTC, # X-axis variable (Date and Time so it keeps the raw data)
+  y = ~TemperatureF, #Y-axis variable (Temperature column)
+  type = "scatter", # scatter type is used for lines in plotly
+  mode = "lines", # Draw as a line (not markers)
+  
+  # Color the line by temperature (continuous gradient)
+  line = list(
+    color = "steelblue",
+    width = 1.5
+  ),
+  
+  # Custom hover text
+  text = ~paste(
+    "Date:", format(DateAndTimeUTC, "%b %d, %Y %H:%M"),
+    "<br>Temperature:", 
+    round(TemperatureF, 2), "°F"
+  ),
+  hoverinfo = "text"  # Only show our custom tooltip
+)
+
+## Layout formatting
+
+tn_temp_plot <- tn_temp_plot %>%
+  layout(
+    # Title Formatting
+    title = list(
+      text = "<b>Tennessee River Daily Temperature<b>",
+      x = 0.5, # centering the title
+      y = 0.95 # pulling it down 0 = bottom, 1 = top of graph
+    ),
+  # X-Axis settings
+  xaxis = list(
+    title = "<b>Month<b>",
+    type = "date",
+    range = c( 
+      # Forces x-axis to match the actual dataset range
+      min(tn_river$DateAndTimeUTC),
+      max(tn_river$DateAndTimeUTC)
+    ),
+    dtick = "M1", # one tick per month
+    tickformat = "%b<br>%Y", # Format: Mar
+                                    #  2025
+    rangeslider = list(visible = TRUE) # adds zoom slider (optional but recommended)
+  ),
+## Y-axis labels
+  yaxis = list(
+   title = "<b> Temperature(°F)</b>",
+   range = c(30, 90),
+   dtick = 5
+  ),
+# Lethal limit dashed line
+shapes = list(
+  list(
+    type = "line",
+    x0 = min(tn_river$DateAndTimeUTC),
+    x1 = max(tn_river$DateAndTimeUTC),
+    y0 = 81,
+    y1 = 81,
+    line = list(
+      dash = "dash",
+      width = 2,
+      color = "darkorange"
+    )
+  )
+),
+# label for lethal line
+annotations = list(
+  list(
+    x = max(tn_river$DateAndTimeUTC),
+    y = 83,
+    text = "Lethal Thermal Limit (81°F)",
+    showarrow = FALSE,
+    xanchor = "right"
+  )
+),
+plot_bgcolor = "white",
+paper_bgcolor = "white",
+showlegend = FALSE
+  )
+
+tn_temp_plot
+```
+
+## Clinch River Temperature
+
+You can look at the monthly temperature of the Clinch River from April 2025 - February 2026!
+
+```{r}
+
+## correcting the date
+
+clinch_river_temp$Date <- as.Date(clinch_river_temp$Date, format = "%m/%d/%Y")
+
+## general
+
+new_clinch_plot <- plot_ly(
+  data = clinch_river_temp, # dataframe
+  x = ~DateAndTimeUTC, # X-axis variable (Date and Time so it keeps the raw data)
+  y = ~TemperatureC, #Y-axis variable (Temperature column)
+  type = "scatter", # scatter type is used for lines in plotly
+  mode = "lines", # Draw as a line (not markers)
+  
+  # Color the line by temperature (continuous gradient)
+  line = list(
+    color = "steelblue",
+    width = 1.5
+  ),
+  
+  # Custom hover text
+  text = ~paste(
+    "Date:", format(DateAndTimeUTC, "%b %d, %Y %H:%M"),
+    "<br>Temperature:", 
+    round(TemperatureC, 2), "°C"
+  ),
+  hoverinfo = "text"  # Only show our custom tooltip
+)
+
+## Layout formatting
+
+new_clinch_plot <- new_clinch_plot %>%
+  layout(
+    # Title Formatting
+    title = list(
+      text = "<b>Clinch River Daily Temperature<b>",
+      x = 0.5, # centers the title
+      y = 0.95 # pulling it down 0 = bottom, 1 = top of graph
+    ),
+  # X-Axis settings
+  xaxis = list(
+    title = "<b>Month<b>",
+    type = "date",
+    range = c( 
+      # Forces x-axis to match the actual dataset range
+      min(clinch_river_temp$DateAndTimeUTC),
+      max(clinch_river_temp$DateAndTimeUTC)
+    ),
+    dtick = "M1", # one tick per month
+    tickformat = "%b<br>%Y", # Format: Mar
+                                    #  2025
+    rangeslider = list(visible = TRUE) # adds zoom slider (optional but recommended)
+  ),
+## Y-axis labels
+  yaxis = list(
+   title = "<b> Temperature(°C)</b>",
+   range = c(0, 30),
+   dtick = 5
+  ),
+# Lethal limit dashed line
+shapes = list(
+  list(
+    type = "line",
+    x0 = min(clinch_river_temp$DateAndTimeUTC),
+    x1 = max(clinch_river_temp$DateAndTimeUTC),
+    y0 = 27,
+    y1 = 27,
+    line = list(
+      dash = "dash",
+      width = 2,
+      color = "darkorange"
+    )
+  )
+),
+# label for lethal line
+annotations = list(
+  list(
+    x = max(clinch_river_temp$DateAndTimeUTC),
+    y = 29,
+    text = "Lethal Thermal Limit (27°C)",
+    showarrow = FALSE,
+    xanchor = "right"
+  )
+),
+plot_bgcolor = "white",
+paper_bgcolor = "white",
+showlegend = FALSE
+  )
+
+new_clinch_plot
+```
