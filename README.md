@@ -1,9 +1,8 @@
 # Team Walleye
 
-##
-This is to document the website created for the project
+## This is to document the website created for the project
 
-This is assist anglers who are interested in the study and if they recapture any of my study fish!
+This is to assist anglers who are interested in the study and if they recapture any of my study fish!
 
 Watts Bar Reservoir is a popular recreational area, with anglers from all over the state to fish the mainstem Tennessee River!
 
