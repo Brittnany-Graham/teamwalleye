@@ -269,6 +269,9 @@ tn_temp_plot
 
 You can look at the monthly temperature of the Clinch River from April 2025 - February 2026!
 
+The Clinch stays relatively cool during the hottest times during the summer!
+Which also makes it ideal for temps for paddling, kayaking, and swimming!
+
 ```{r}
 
 ## correcting the date
@@ -280,7 +283,7 @@ clinch_river_temp$Date <- as.Date(clinch_river_temp$Date, format = "%m/%d/%Y")
 new_clinch_plot <- plot_ly(
   data = clinch_river_temp, # dataframe
   x = ~DateAndTimeUTC, # X-axis variable (Date and Time so it keeps the raw data)
-  y = ~TemperatureC, #Y-axis variable (Temperature column)
+  y = ~TemperatureF, #Y-axis variable (Temperature column)
   type = "scatter", # scatter type is used for lines in plotly
   mode = "lines", # Draw as a line (not markers)
   
@@ -294,7 +297,7 @@ new_clinch_plot <- plot_ly(
   text = ~paste(
     "Date:", format(DateAndTimeUTC, "%b %d, %Y %H:%M"),
     "<br>Temperature:", 
-    round(TemperatureC, 2), "°C"
+    round(TemperatureF, 2), "°F"
   ),
   hoverinfo = "text"  # Only show our custom tooltip
 )
@@ -325,8 +328,8 @@ new_clinch_plot <- new_clinch_plot %>%
   ),
 ## Y-axis labels
   yaxis = list(
-   title = "<b> Temperature(°C)</b>",
-   range = c(0, 30),
+   title = "<b> Temperature(°F)</b>",
+   range = c(25, 90),
    dtick = 5
   ),
 # Lethal limit dashed line
@@ -335,8 +338,8 @@ shapes = list(
     type = "line",
     x0 = min(clinch_river_temp$DateAndTimeUTC),
     x1 = max(clinch_river_temp$DateAndTimeUTC),
-    y0 = 27,
-    y1 = 27,
+    y0 = 81,
+    y1 = 81,
     line = list(
       dash = "dash",
       width = 2,
@@ -348,8 +351,8 @@ shapes = list(
 annotations = list(
   list(
     x = max(clinch_river_temp$DateAndTimeUTC),
-    y = 29,
-    text = "Lethal Thermal Limit (27°C)",
+    y = 83,
+    text = "Lethal Thermal Limit (81°F)",
     showarrow = FALSE,
     xanchor = "right"
   )

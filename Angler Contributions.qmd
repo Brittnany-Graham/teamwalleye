@@ -5,22 +5,16 @@ lightbox: true
 ---
 
 ### This page is dedicated to the anglers who have contributed to the project!
+
+Thank you all who have called in and submitted photos of your smiling faces for my project!
+I greatly appreciate your contributions and enthusiasm for my project!
+
 ::: {style="display: flex; flex-wrap: wrap; gap: 10px"}
-![Angler Billy Gunter](Billy Gunter.jpg){fig-align="center"}
+![Angler Billy Gunter](Billy%20Gunter.jpg){fig-align="center"}
 
-![Angler Jose Francisco](Jose Francisco.jpg){fig-align="center"}
+![Angler Jose Francisco](Jose%20Francisco.jpg){fig-align="center"}
 
-![Angler David Keyes](David Keyes.jpg){fig-align="center"}
+![Angler David Keyes](David%20Keyes.jpg){fig-align="center"}
 :::
 
-
-
-
-
-
-
-
-
-
-
-
+![Angler Tracy Alanquest](Tracy Alanquest.jpg)
