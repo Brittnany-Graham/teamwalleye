@@ -4,9 +4,10 @@
 // https://quarto.org/docs/output-formats/html-themes.html#sass-variables
 
 /* Colors */
-$body-bg: #FFFFFF;
-$body-color: rgb(55, 58, 60);
-$link-color: rgb(39, 128, 227);
+$navbar-bg: #1d3557;   // deep water blue
+$navbar-hl: #e9c46a;   // hover highlight
+$link-color: #2a9d8f;  // teal links
+$navbar-fg: #ffffff;
 
 /* Fonts */
 $font-family-sans-serif: "Source Sans Pro", -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";

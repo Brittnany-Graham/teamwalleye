@@ -23,6 +23,6 @@ Thank you to Innovasea, our vendor we purchase a large portion of our gear from 
 
 Thank you to the Tennessee Chapter of the American Fisheries Society for funding me to attend the Southern Division American Fisheries Society meeting in New Orleans, LA to present my research in 2026!
 
-![American Fisheries Society - Tennessee Chapter](TNAFS logo.PNG){fig-align="center" width="410"}
+![American Fisheries Society - Tennessee Chapter](TNAFS%20logo.PNG){fig-align="center" width="410"}
 
 Last, but not least, I would like to thank **you**, the public for your support and collaboration during this project!

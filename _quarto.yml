@@ -29,10 +29,11 @@ website:
       
 format:
   html:
-    backgroundcolor: "#023743FF"
-    fontcolor: "white"
-    linkcolor: "#689b81"
+    backgroundcolor: "#F1FAEE"
+    fontcolor: "#2B2D42"
+    linkcolor: "#2A9D8F"
     theme: [cosmo, styles.scss]
+
 
 
 

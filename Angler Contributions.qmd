@@ -17,4 +17,4 @@ I greatly appreciate your contributions and enthusiasm for my project!
 ![Angler David Keyes](David%20Keyes.jpg){fig-align="center"}
 :::
 
-![Angler Tracy Alanquest](Tracy Alanquest.jpg)
+![Angler Tracy Alanquest](Tracy%20Alanquest.jpg)
