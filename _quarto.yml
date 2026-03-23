@@ -25,7 +25,8 @@ website:
         - Media and Press.qmd
         - test.qmd
       - text: Data
-        href: data.qmd
+        menu:
+        - data.qmd
       
 format:
   html:

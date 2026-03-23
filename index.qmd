@@ -13,9 +13,9 @@ about: # https://quarto.org/docs/websites/website-about.html
 
 ## Project Background
 
-If you love walleye fishing, you have a great opportunity to contribute to a meaningful research project that will help guide TWRA management of walleye moving forward!
+If you love Walleye fishing, you have a great opportunity to contribute to a meaningful research project that will help guide TWRA management of walleye moving forward!
 
-Between the 1980's - 2011, the Tennessee Wildlife Resources Agency (TWRA) were stocking sauger, a popular sportfish amongst anglers. However, due to inconsistent and unpredictable spawning success, TWRA made the decision to change their stocking practices to stocking walleye. 
+Between the 1980's - 2011, the Tennessee Wildlife Resources Agency (TWRA) were stocking Sauger (*Sander canadensis*), a popular sportfish amongst anglers. However, due to inconsistent and unpredictable spawning success, TWRA made the decision to change their stocking practices to stocking walleye. 
 
 This is where my project comes in! In partnership with TWRA (shoutout to Mike Jolley and Joey Root of Region 3), we will be deploying passive acoustic receivers throughout Watts Bar Reservoir, and surgically implanting acoustic transmitters into walleye to start tracking their movements throughout the reservoir!
 
