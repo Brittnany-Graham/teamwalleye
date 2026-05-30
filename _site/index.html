@@ -78,7 +78,7 @@ gtag('config', 'G-7WF0FMD3SS', { 'anonymize_ip': true});
 
 <meta property="og:title" content="Watts Bar Walleye – Watts Bar Walleye Project">
 <meta property="og:description" content="Brittnany Graham | Graduate Student UT - Knoxville">
-<meta property="og:image" content="https://brittnany-graham.quarto.pub/watts-bar-project/Brittnany Walleye.jpg">
+<meta property="og:image" content="Brittnany Walleye.jpg">
 <meta property="og:site_name" content="Watts Bar Walleye Project">
 </head>
 
@@ -290,7 +290,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/brittnany-graham\.quarto\.pub\/watts-bar-project");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
