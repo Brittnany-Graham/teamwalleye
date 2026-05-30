@@ -1,6 +1,19 @@
-.Rproj.user
+
+.Rproj.user/
 .Rhistory
 .RData
 .Ruserdata
 
+
+.quarto/
+_freeze/
+
+
+.DS_Store
+Thumbs.db
+
+
+.positai
+
 /.quarto/
+_site/
