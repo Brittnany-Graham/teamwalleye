@@ -98,18 +98,11 @@
     "text": "Clinch River Temperature\nYou can look at the monthly temperature of the Clinch River from April 2025 - February 2026!\nThe Clinch stays relatively cool during the hottest times during the summer! Which also makes it ideal for temps for paddling, kayaking, and swimming!"
   },
   {
-    "objectID": "blog/third-post/index.html",
-    "href": "blog/third-post/index.html",
-    "title": "Third Blog Post",
+    "objectID": "Angler Contributions.html",
+    "href": "Angler Contributions.html",
+    "title": "Angler Contributions",
     "section": "",
-    "text": "The source for any page in your website could also be a Jupyter Notebook. This one is third-post/index.ipynb.\nHere’s an example I borrowed from the Seaborn docs:\n\nimport seaborn as sns\n\nsns.set_theme(style=\"whitegrid\")\n\n# Load the diamonds dataset\ndiamonds = sns.load_dataset(\"diamonds\")\n\n# Plot the distribution of clarity ratings, conditional on carat\nsns.displot(\n    data=diamonds,\n    x=\"carat\", hue=\"cut\",\n    kind=\"kde\", height=4, aspect=1.5,\n    multiple=\"fill\", clip=(0, None),\n    palette=\"ch:rot=-.25,hue=1,light=.75\",   \n)"
-  },
-  {
-    "objectID": "blog/first-post/index.html",
-    "href": "blog/first-post/index.html",
-    "title": "First Post",
-    "section": "",
-    "text": "Sed risus ultricies tristique nulla aliquet. Neque volutpat ac tincidunt vitae semper quis lectus nulla.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sed faucibus turpis in eu mi bibendum neque. Ac orci phasellus egestas tellus rutrum tellus pellentesque eu. Velit sed ullamcorper morbi tincidunt ornare massa. Sagittis id consectetur purus ut faucibus pulvinar elementum integer. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Lobortis feugiat vivamus at augue eget arcu. Aliquam ut porttitor leo a diam sollicitudin tempor id eu. Mauris a diam maecenas sed enim ut sem viverra aliquet. Enim ut tellus elementum sagittis vitae et leo duis. Molestie at elementum eu facilisis sed odio morbi quis commodo. Sapien pellentesque habitant morbi tristique senectus. Quam vulputate dignissim suspendisse in est. Nulla pellentesque dignissim enim sit amet venenatis urna cursus eget.\nVelit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Tortor at auctor urna nunc id. Sit amet consectetur adipiscing elit duis tristique sollicitudin. Aliquet nibh praesent tristique magna sit amet purus. Tristique senectus et netus et malesuada fames ac turpis. Hac habitasse platea dictumst quisque. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Ultrices tincidunt arcu non sodales neque sodales ut etiam. Iaculis at erat pellentesque adipiscing. Cras tincidunt lobortis feugiat vivamus. Nisi est sit amet facilisis magna etiam. Pharetra pharetra massa massa ultricies mi quis hendrerit. Vitae sapien pellentesque habitant morbi tristique senectus. Ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae."
+    "text": "This page is dedicated to the anglers who have contributed to the project!\nThank you all who have called in and submitted photos of your smiling faces for my project! I greatly appreciate your contributions and enthusiasm for my project!\n\n\n\n\n\n\n\n\nAngler Billy Gunter\n\n\n\n\n\n\n\n\n\nAngler Jose Francisco\n\n\n\n\n\n\n\n\n\nAngler David Keyes\n\n\n\n\n\n\nAngler Tracy Alanquest"
   },
   {
     "objectID": "Acknowledgements Page.html",
@@ -124,20 +117,6 @@
     "title": "Acknowledgements",
     "section": "",
     "text": "I want to start off by thanking my advisor, Dr. Lisa Izzo, who has been a great mentor throughout my graduate career. I also want to thank my lab mates for their help throughout this project!\nI would like to thank the Herbert College of Agriculture and School of Natural Resources in which a large portion of my funding originates!\n\n\n\n\n\nI would also like to thank TWRA for their collaboration and assistance in field work and expanding my project! Special thanks to Joey Root and Mike Jolley for their endless knowledge of Watts Bar Reservoir and their excitement for the project!\n\n\n\n\n\nThank you to Innovasea, our vendor we purchase a large portion of our gear from and their assistance in the field!\n\n\n\n\n\nThank you to the Tennessee Chapter of the American Fisheries Society for funding me to attend the Southern Division American Fisheries Society meeting in New Orleans, LA to present my research in 2026!\n\n\n\nAmerican Fisheries Society - Tennessee Chapter\n\n\nLast, but not least, I would like to thank you, the public for your support and collaboration during this project!"
-  },
-  {
-    "objectID": "Angler Contributions.html",
-    "href": "Angler Contributions.html",
-    "title": "Angler Contributions",
-    "section": "",
-    "text": "This page is dedicated to the anglers who have contributed to the project!\nThank you all who have called in and submitted photos of your smiling faces for my project! I greatly appreciate your contributions and enthusiasm for my project!\n\n\n\n\n\n\n\n\nAngler Billy Gunter\n\n\n\n\n\n\n\n\n\nAngler Jose Francisco\n\n\n\n\n\n\n\n\n\nAngler David Keyes\n\n\n\n\n\n\nAngler Tracy Alanquest"
-  },
-  {
-    "objectID": "blog/second-post/index.html",
-    "href": "blog/second-post/index.html",
-    "title": "Second Post",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis imperdiet massa tincidunt nunc pulvinar sapien et ligula. Amet cursus sit amet dictum sit amet. Eget duis at tellus at urna condimentum. Convallis aenean et tortor at risus viverra. Tincidunt ornare massa eget egestas purus viverra accumsan. Et malesuada fames ac turpis egestas. At imperdiet dui accumsan sit amet. Ut ornare lectus sit amet est placerat. Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Duis ultricies lacus sed turpis tincidunt id aliquet risus. Mattis enim ut tellus elementum sagittis. Dui id ornare arcu odio ut. Natoque penatibus et magnis dis. Libero justo laoreet sit amet cursus sit. Sed faucibus turpis in eu. Tempus iaculis urna id volutpat lacus laoreet.\nPhasellus vestibulum lorem sed risus. Eget felis eget nunc lobortis mattis. Sit amet aliquam id diam maecenas ultricies. Egestas maecenas pharetra convallis posuere morbi. Etiam erat velit scelerisque in dictum non consectetur a erat. Cras fermentum odio eu feugiat pretium nibh ipsum consequat. Viverra accumsan in nisl nisi scelerisque. Et netus et malesuada fames ac. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean. Eget lorem dolor sed viverra ipsum nunc aliquet. Ultrices dui sapien eget mi proin sed libero enim sed. Ultricies mi eget mauris pharetra et ultrices neque. Ipsum suspendisse ultrices gravida dictum. A arcu cursus vitae congue mauris rhoncus aenean vel. Gravida arcu ac tortor dignissim convallis. Nulla posuere sollicitudin aliquam ultrices."
   },
   {
     "objectID": "Contact.html",
@@ -179,14 +158,14 @@
     "href": "index.html",
     "title": "Watts Bar Walleye",
     "section": "",
-    "text": "If you love walleye fishing, you have a great opportunity to contribute to a meaningful research project that will help guide TWRA management of walleye moving forward!\nBetween the 1980’s - 2011, the Tennessee Wildlife Resources Agency (TWRA) were stocking sauger, a popular sportfish amongst anglers. However, due to inconsistent and unpredictable spawning success, TWRA made the decision to change their stocking practices to stocking walleye.\nThis is where my project comes in! In partnership with TWRA (shoutout to Mike Jolley and Joey Root of Region 3), we will be deploying passive acoustic receivers throughout Watts Bar Reservoir, and surgically implanting acoustic transmitters into walleye to start tracking their movements throughout the reservoir!"
+    "text": "If you love Walleye fishing, you have a great opportunity to contribute to a meaningful research project that will help guide TWRA management of walleye moving forward!\nBetween the 1980’s - 2011, the Tennessee Wildlife Resources Agency (TWRA) were stocking Sauger (Sander canadensis), a popular sportfish amongst anglers. However, due to inconsistent and unpredictable spawning success, TWRA made the decision to change their stocking practices to stocking walleye.\nThis is where my project comes in! In partnership with TWRA (shoutout to Mike Jolley and Joey Root of Region 3), we will be deploying passive acoustic receivers throughout Watts Bar Reservoir, and surgically implanting acoustic transmitters into walleye to start tracking their movements throughout the reservoir!"
   },
   {
     "objectID": "index.html#project-background",
     "href": "index.html#project-background",
     "title": "Watts Bar Walleye",
     "section": "",
-    "text": "If you love walleye fishing, you have a great opportunity to contribute to a meaningful research project that will help guide TWRA management of walleye moving forward!\nBetween the 1980’s - 2011, the Tennessee Wildlife Resources Agency (TWRA) were stocking sauger, a popular sportfish amongst anglers. However, due to inconsistent and unpredictable spawning success, TWRA made the decision to change their stocking practices to stocking walleye.\nThis is where my project comes in! In partnership with TWRA (shoutout to Mike Jolley and Joey Root of Region 3), we will be deploying passive acoustic receivers throughout Watts Bar Reservoir, and surgically implanting acoustic transmitters into walleye to start tracking their movements throughout the reservoir!"
+    "text": "If you love Walleye fishing, you have a great opportunity to contribute to a meaningful research project that will help guide TWRA management of walleye moving forward!\nBetween the 1980’s - 2011, the Tennessee Wildlife Resources Agency (TWRA) were stocking Sauger (Sander canadensis), a popular sportfish amongst anglers. However, due to inconsistent and unpredictable spawning success, TWRA made the decision to change their stocking practices to stocking walleye.\nThis is where my project comes in! In partnership with TWRA (shoutout to Mike Jolley and Joey Root of Region 3), we will be deploying passive acoustic receivers throughout Watts Bar Reservoir, and surgically implanting acoustic transmitters into walleye to start tracking their movements throughout the reservoir!"
   },
   {
     "objectID": "index.html#about-me",

@@ -367,3 +367,10 @@ showlegend = FALSE
 
 new_clinch_plot
 ```
+
+```{r}
+file.info(list.files("_site", recursive = TRUE, full.names = TRUE)) |>
+  dplyr::arrange(desc(size)) |>
+  dplyr::select(size) |>
+  head(20)
+```
