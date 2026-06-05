@@ -1,5 +1,5 @@
 ---
-title: "Data"
+title: "Interactive Temperature Data"
 author: "Brittnany Graham"
 editor: visual
 format:

@@ -2,6 +2,14 @@
 title: "Static Temperature Data"
 author: "Brittnany Graham"
 editor: visual
+format:
+  html:
+    embed-resources: false
+execute:
+  echo: false
+  message: false
+  warning: false
+  results: 'hide'
 ---
 
 ## River Temperature Plots
