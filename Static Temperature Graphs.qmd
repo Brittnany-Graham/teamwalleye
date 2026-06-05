@@ -1,5 +1,5 @@
 ---
-title: "Static Temperature Data"
+title: "Temperature Data"
 author: "Brittnany Graham"
 editor: visual
 format:

@@ -26,7 +26,7 @@ website:
         - test.qmd
       - text: Data
         menu:
-        - data.qmd
+        - Static Temperature Graphs.qmd
       
 format:
   html:

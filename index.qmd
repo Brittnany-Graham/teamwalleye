@@ -9,6 +9,9 @@ about: # https://quarto.org/docs/websites/website-about.html
     - icon: github
       text: Github
       href: https://github.com/Brittnany-Graham
+    - icon: instagram
+      text: FACE Lab
+      href: https://www.instagram.com/utk_aquaticslab
 ---
 
 ## Project Background

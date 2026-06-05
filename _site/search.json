@@ -1,80 +1,38 @@
 [
   {
-    "objectID": "Project Methods_2.html",
-    "href": "Project Methods_2.html",
-    "title": "Acoustic Telemetry",
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
     "section": "",
-    "text": "Acoustic telemetry, simply, is the use of sound to track aquatic animals through water!\n\n\n\nGraphic representation of how acoustic telemetry works. An acoustic receiver will detect a signal from an acoustic transmitter implanted inside the walleye."
+    "text": "Predicting House Prices with Machine Learning\n\n\n\nPython\n\n\nMachine Learning\n\n\nData Cleaning\n\n\n\nThis project involves using machine learning algorithms to predict house prices based on various features such as location, size, and amenities. It includes data cleaning, feature engineering, and model selection.\n\n\n\nJan 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCustomer Segmentation Using Clustering Techniques\n\n\n\nR\n\n\nMachine Learning\n\n\nClustering\n\n\nStatistical Modelling\n\n\n\nThis project focuses on segmenting customers into different groups based on their purchasing behavior and demographics. It uses clustering algorithms like K-means and hierarchical clustering to identify distinct customer segments.\n\n\n\nApr 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVisualizing Global CO2 Emissions\n\n\n\nR\n\n\nData Visualization\n\n\nEnvironmental Science\n\n\n\nThis project involves creating visualizations to show trends in global CO2 emissions over time. It includes data extraction from public databases, data cleaning, and using visualization libraries to create interactive charts and graphs.\n\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "Project Methods_2.html#what-is-it",
-    "href": "Project Methods_2.html#what-is-it",
-    "title": "Acoustic Telemetry",
+    "objectID": "Media and Press.html#section",
+    "href": "Media and Press.html#section",
+    "title": "Media",
+    "section": "2026",
+    "text": "2026\nTennessee WildCast\nWalleye Fishing on Fire!\nInside the Walleye Boom: Fast Growth, Big Bites & Hatchery Heroes"
+  },
+  {
+    "objectID": "Media and Press.html#section-1",
+    "href": "Media and Press.html#section-1",
+    "title": "Media",
+    "section": "2025",
+    "text": "2025\nNews Channel 9:\nTennessee anglers: Be on the lookout for tagged walleye\nThe Chattanoogan:\nTWRA Announces Walleye Research Underway on Watts Bar\nTennessee Wildlife Resources Agency Blog\nWalleye Project Being Conducted at Watts Bar\nUT School of Natural Resources: Step Outside Series\nStep Outside: Brittnany Graham on walleye research at Watts Bar Reservoir"
+  },
+  {
+    "objectID": "How can you help Page.html",
+    "href": "How can you help Page.html",
+    "title": "How Can You Help?",
     "section": "",
-    "text": "Acoustic telemetry, simply, is the use of sound to track aquatic animals through water!\n\n\n\nGraphic representation of how acoustic telemetry works. An acoustic receiver will detect a signal from an acoustic transmitter implanted inside the walleye."
+    "text": "As an angler, you can provide some very useful information for my project! Our goal is to assist TWRA in understanding movements and habitat use of walleye in the reservoir, and provide information that can be useful to improving stocking practices for the species.\n\n\n\nPhoto credit to the Wisconsin Fishery Cooperative Research Unit (WFCRU)\n\n\n\n\nIf you capture a walleye that has a loop tag, this is what you can do to help contribute to the project (and get your photo on this website as an acknowledgement)!\n\n\n\nTry to keep the walleye alive. This is critical because we encourage you to release the fish once you’ve contacted us!\n\n\n\nCall myself (Brittnany) first, and if you are not able to reach me for any reason then you can call TWRA, but I will be the first point of contact! We will have a series of questions for you such as general capture location, length, and weight of the walleye you caught!\nIf for any reason the walleye is dead or if you have to harvest it, no problem! We still ask that you remove the acoustic transmitter that is located in the belly of the fish and return it to the university. These are expensive pieces of equipment, and we would like to get them back! These tags will also have sensors on them that we need to download, so getting them back is a huge help to the project. It is also helpful for me to know the fate of the fish!\nSnap a photo of the loop tag, which will have my phone number on it so you can refer to it later!\n\n\n\nSnap a photo with your catch and email it to us! We want to see some pearly whites and anglers having fun fishing!\n\n\n\nWe would greatly appreciate it if you would consider releasing your walleye. The longer these tagged fish are swimming around in Watts Bar, the more information we can get, providing TWRA with information that can help continue to improve the walleye fishery! Please leave the loop tag attached to the fish when you release it, as it will be used to identify the fish again later!"
   },
   {
-    "objectID": "Project Methods_2.html#acoustic-transmitters",
-    "href": "Project Methods_2.html#acoustic-transmitters",
-    "title": "Acoustic Telemetry",
-    "section": "Acoustic Transmitters",
-    "text": "Acoustic Transmitters\nAcoustic transmitters are small tags we surgically implant into the belly cavity of the walleye. Every 60-120 seconds, there’s a signal we call a “ping” that is transmitted out into the water column, and if it’s passing by a receiver, will be logged and used later to track the path of the fish. These transmitters will last for a total of two years.\nPretty cool, right?\n\n\n\n\n\n\n\nThis is what the acoustic transmitters look like."
-  },
-  {
-    "objectID": "Project Methods_2.html#how-we-achieve-this",
-    "href": "Project Methods_2.html#how-we-achieve-this",
-    "title": "Acoustic Telemetry",
-    "section": "How we achieve this",
-    "text": "How we achieve this\nTo achieve this, we use acoustic receivers for long term, continuous tracking of aquatic animals! Since the receivers are always on, they are constantly recording temperature and signals from acoustic transmitters that are implanted within the walleye.\n\n\n\n\n\n\n\nThis is an acoustic receiver."
-  },
-  {
-    "objectID": "Project Methods_2.html#how-will-i-know-if-ive-caught-a-fish-part-of-this-study",
-    "href": "Project Methods_2.html#how-will-i-know-if-ive-caught-a-fish-part-of-this-study",
-    "title": "Acoustic Telemetry",
-    "section": "How will I know if I’ve caught a fish part of this study?",
-    "text": "How will I know if I’ve caught a fish part of this study?\nWonderful question! All walleye that are tagged will have an orange loop tag between its first and second dorsal fin (see below)! This tag will have a phone number and loop tag number on it, so when you call it in, we can quickly identify the walleye!\n\n\n\n\n\n\n\nWalleye photo credits to the Wisconsin Cooperative Fishery Research Unit (WCFRU)"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Watts Bar Walleye",
+    "objectID": "How can you help Page.html#what-can-you-do",
+    "href": "How can you help Page.html#what-can-you-do",
+    "title": "How Can You Help?",
     "section": "",
-    "text": "If you love Walleye fishing, you have a great opportunity to contribute to a meaningful research project that will help guide TWRA management of walleye moving forward!\nBetween the 1980’s - 2011, the Tennessee Wildlife Resources Agency (TWRA) were stocking Sauger (Sander canadensis), a popular sportfish amongst anglers. However, due to inconsistent and unpredictable spawning success, TWRA made the decision to change their stocking practices to stocking walleye.\nThis is where my project comes in! In partnership with TWRA (shoutout to Mike Jolley and Joey Root of Region 3), we will be deploying passive acoustic receivers throughout Watts Bar Reservoir, and surgically implanting acoustic transmitters into walleye to start tracking their movements throughout the reservoir!"
-  },
-  {
-    "objectID": "index.html#project-background",
-    "href": "index.html#project-background",
-    "title": "Watts Bar Walleye",
-    "section": "",
-    "text": "If you love Walleye fishing, you have a great opportunity to contribute to a meaningful research project that will help guide TWRA management of walleye moving forward!\nBetween the 1980’s - 2011, the Tennessee Wildlife Resources Agency (TWRA) were stocking Sauger (Sander canadensis), a popular sportfish amongst anglers. However, due to inconsistent and unpredictable spawning success, TWRA made the decision to change their stocking practices to stocking walleye.\nThis is where my project comes in! In partnership with TWRA (shoutout to Mike Jolley and Joey Root of Region 3), we will be deploying passive acoustic receivers throughout Watts Bar Reservoir, and surgically implanting acoustic transmitters into walleye to start tracking their movements throughout the reservoir!"
-  },
-  {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Watts Bar Walleye",
-    "section": "About Me",
-    "text": "About Me\nI’m a second year graduate student at the University of Tennessee - Knoxville, under the advisement of Dr. Lisa Izzo. Part of the School of Natural Resources, I’m obtaining my M.S. in fisheries science! My project will be documenting habitat use and spawning in walleye (Sander vitreus) in Watts Bar Reservoir."
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Watts Bar Walleye",
-    "section": "Education",
-    "text": "Education\nM.S. Fisheries Science, University of Tennessee - Knoxville | Knoxville, TN | August 2024 - Present\nB.S. Marine Biology, College of Charleston | Charleston, SC | 2016 - 2020"
-  },
-  {
-    "objectID": "Frequently Asked Questions.html",
-    "href": "Frequently Asked Questions.html",
-    "title": "FAQ",
-    "section": "",
-    "text": "The loop tag is an external indicator the individual is part of the study. They do not hinder the fish’s ability to swim or carry on normal activities post surgery. They’re extensively used in mark/recapture studies, where these studies are used for population statistics. In my case, this will be useful for you, the angler, to accurately identify a walleye tied to my study.\nThese tags are also incredibly useful to determine what proportion of the population is recaptured and where. For instance, if the Emory River is heavily fished due to increased accessibility or popularity by anglers, versus the Clinch River, which might not be as heavily populated with walleye anglers, then I expect more calls about fish coming from the Emory River.\n\n\n\nThis study will last about a year and a half! I would like to capture movement during two spawning periods: Spring 2025 and Spring 2026, which will help indicate if walleye have a preference of spawning grounds within Watts Bar Reservoir and its tributaries!\n\n\n\nIf an angler catches a walleye and it is deemed not fit to return to the reservoir, you can call me and I will instruct you on how to take out the transmitter and the address to send it to. Once I receive the transmitter in the mail, the angler will receive a $100 reward.\nHowever, if an angler calls in a captured walleye and release it back into the reservoir, the angler’s name will be entered in a lottery for the chance to win a $200 reward at the end of the study.\n\n\n\nThe walleye are supplied with a constant steady flow of water over their gills during surgery, so they are stable during the surgery."
-  },
-  {
-    "objectID": "Frequently Asked Questions.html#frequently-asked-questions",
-    "href": "Frequently Asked Questions.html#frequently-asked-questions",
-    "title": "FAQ",
-    "section": "",
-    "text": "The loop tag is an external indicator the individual is part of the study. They do not hinder the fish’s ability to swim or carry on normal activities post surgery. They’re extensively used in mark/recapture studies, where these studies are used for population statistics. In my case, this will be useful for you, the angler, to accurately identify a walleye tied to my study.\nThese tags are also incredibly useful to determine what proportion of the population is recaptured and where. For instance, if the Emory River is heavily fished due to increased accessibility or popularity by anglers, versus the Clinch River, which might not be as heavily populated with walleye anglers, then I expect more calls about fish coming from the Emory River.\n\n\n\nThis study will last about a year and a half! I would like to capture movement during two spawning periods: Spring 2025 and Spring 2026, which will help indicate if walleye have a preference of spawning grounds within Watts Bar Reservoir and its tributaries!\n\n\n\nIf an angler catches a walleye and it is deemed not fit to return to the reservoir, you can call me and I will instruct you on how to take out the transmitter and the address to send it to. Once I receive the transmitter in the mail, the angler will receive a $100 reward.\nHowever, if an angler calls in a captured walleye and release it back into the reservoir, the angler’s name will be entered in a lottery for the chance to win a $200 reward at the end of the study.\n\n\n\nThe walleye are supplied with a constant steady flow of water over their gills during surgery, so they are stable during the surgery."
+    "text": "As an angler, you can provide some very useful information for my project! Our goal is to assist TWRA in understanding movements and habitat use of walleye in the reservoir, and provide information that can be useful to improving stocking practices for the species.\n\n\n\nPhoto credit to the Wisconsin Fishery Cooperative Research Unit (WFCRU)\n\n\n\n\nIf you capture a walleye that has a loop tag, this is what you can do to help contribute to the project (and get your photo on this website as an acknowledgement)!\n\n\n\nTry to keep the walleye alive. This is critical because we encourage you to release the fish once you’ve contacted us!\n\n\n\nCall myself (Brittnany) first, and if you are not able to reach me for any reason then you can call TWRA, but I will be the first point of contact! We will have a series of questions for you such as general capture location, length, and weight of the walleye you caught!\nIf for any reason the walleye is dead or if you have to harvest it, no problem! We still ask that you remove the acoustic transmitter that is located in the belly of the fish and return it to the university. These are expensive pieces of equipment, and we would like to get them back! These tags will also have sensors on them that we need to download, so getting them back is a huge help to the project. It is also helpful for me to know the fate of the fish!\nSnap a photo of the loop tag, which will have my phone number on it so you can refer to it later!\n\n\n\nSnap a photo with your catch and email it to us! We want to see some pearly whites and anglers having fun fishing!\n\n\n\nWe would greatly appreciate it if you would consider releasing your walleye. The longer these tagged fish are swimming around in Watts Bar, the more information we can get, providing TWRA with information that can help continue to improve the walleye fishery! Please leave the loop tag attached to the fish when you release it, as it will be used to identify the fish again later!"
   },
   {
     "objectID": "Contact.html",
@@ -119,73 +77,115 @@
     "text": "This page is dedicated to the anglers who have contributed to the project!\nThank you all who have called in and submitted photos of your smiling faces for my project! I greatly appreciate your contributions and enthusiasm for my project!\n\n\n\n\n\n\n\n\nAngler Billy Gunter\n\n\n\n\n\n\n\n\n\nAngler Jose Francisco\n\n\n\n\n\n\n\n\n\nAngler David Keyes\n\n\n\n\n\n\nAngler Tracy Alanquest"
   },
   {
-    "objectID": "data.html",
-    "href": "data.html",
-    "title": "Data",
+    "objectID": "Frequently Asked Questions.html",
+    "href": "Frequently Asked Questions.html",
+    "title": "FAQ",
     "section": "",
-    "text": "This website still updates as data comes in. This is to reflect and document the duration of my study, so this will continuously change as I gather more data! :)\n\n\n\n\n\n\nThese are interactive plots because I believe that data exploration is supposed to be fun! You can scroll the bar at the bottom of each graph to look at the temperature changes during a specific month, or you can tap at any point on the line and you will be able to see the temperature for that specific day and time!"
+    "text": "The loop tag is an external indicator the individual is part of the study. They do not hinder the fish’s ability to swim or carry on normal activities post surgery. They’re extensively used in mark/recapture studies, where these studies are used for population statistics. In my case, this will be useful for you, the angler, to accurately identify a walleye tied to my study.\nThese tags are also incredibly useful to determine what proportion of the population is recaptured and where. For instance, if the Emory River is heavily fished due to increased accessibility or popularity by anglers, versus the Clinch River, which might not be as heavily populated with walleye anglers, then I expect more calls about fish coming from the Emory River.\n\n\n\nThis study will last about a year and a half! I would like to capture movement during two spawning periods: Spring 2025 and Spring 2026, which will help indicate if walleye have a preference of spawning grounds within Watts Bar Reservoir and its tributaries!\n\n\n\nIf an angler catches a walleye and it is deemed not fit to return to the reservoir, you can call me and I will instruct you on how to take out the transmitter and the address to send it to. Once I receive the transmitter in the mail, the angler will receive a $100 reward.\nHowever, if an angler calls in a captured walleye and release it back into the reservoir, the angler’s name will be entered in a lottery for the chance to win a $200 reward at the end of the study.\n\n\n\nThe walleye are supplied with a constant steady flow of water over their gills during surgery, so they are stable during the surgery."
   },
   {
-    "objectID": "data.html#interactive-temperature-plots",
-    "href": "data.html#interactive-temperature-plots",
-    "title": "Data",
+    "objectID": "Frequently Asked Questions.html#frequently-asked-questions",
+    "href": "Frequently Asked Questions.html#frequently-asked-questions",
+    "title": "FAQ",
     "section": "",
-    "text": "This website still updates as data comes in. This is to reflect and document the duration of my study, so this will continuously change as I gather more data! :)\n\n\n\n\n\n\nThese are interactive plots because I believe that data exploration is supposed to be fun! You can scroll the bar at the bottom of each graph to look at the temperature changes during a specific month, or you can tap at any point on the line and you will be able to see the temperature for that specific day and time!"
+    "text": "The loop tag is an external indicator the individual is part of the study. They do not hinder the fish’s ability to swim or carry on normal activities post surgery. They’re extensively used in mark/recapture studies, where these studies are used for population statistics. In my case, this will be useful for you, the angler, to accurately identify a walleye tied to my study.\nThese tags are also incredibly useful to determine what proportion of the population is recaptured and where. For instance, if the Emory River is heavily fished due to increased accessibility or popularity by anglers, versus the Clinch River, which might not be as heavily populated with walleye anglers, then I expect more calls about fish coming from the Emory River.\n\n\n\nThis study will last about a year and a half! I would like to capture movement during two spawning periods: Spring 2025 and Spring 2026, which will help indicate if walleye have a preference of spawning grounds within Watts Bar Reservoir and its tributaries!\n\n\n\nIf an angler catches a walleye and it is deemed not fit to return to the reservoir, you can call me and I will instruct you on how to take out the transmitter and the address to send it to. Once I receive the transmitter in the mail, the angler will receive a $100 reward.\nHowever, if an angler calls in a captured walleye and release it back into the reservoir, the angler’s name will be entered in a lottery for the chance to win a $200 reward at the end of the study.\n\n\n\nThe walleye are supplied with a constant steady flow of water over their gills during surgery, so they are stable during the surgery."
   },
   {
-    "objectID": "data.html#temperature-of-emory-river",
-    "href": "data.html#temperature-of-emory-river",
-    "title": "Data",
-    "section": "Temperature of Emory River",
-    "text": "Temperature of Emory River\n\n\n\n\n\n\nThe Emory River experienced record highs and record lows during 2025.\n\n\n\n\n\n\nThis is showing the general temperature of the Emory River. As you can see, the temperature gets very warm during the summer, which means this could explain why Walleye might leave the area."
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Watts Bar Walleye",
+    "section": "",
+    "text": "If you love Walleye fishing, you have a great opportunity to contribute to a meaningful research project that will help guide TWRA management of walleye moving forward!\nBetween the 1980’s - 2011, the Tennessee Wildlife Resources Agency (TWRA) were stocking Sauger (Sander canadensis), a popular sportfish amongst anglers. However, due to inconsistent and unpredictable spawning success, TWRA made the decision to change their stocking practices to stocking walleye.\nThis is where my project comes in! In partnership with TWRA (shoutout to Mike Jolley and Joey Root of Region 3), we will be deploying passive acoustic receivers throughout Watts Bar Reservoir, and surgically implanting acoustic transmitters into walleye to start tracking their movements throughout the reservoir!"
   },
   {
-    "objectID": "data.html#temperature-of-tennessee-river---near-browder-shoals",
-    "href": "data.html#temperature-of-tennessee-river---near-browder-shoals",
-    "title": "Data",
+    "objectID": "index.html#project-background",
+    "href": "index.html#project-background",
+    "title": "Watts Bar Walleye",
+    "section": "",
+    "text": "If you love Walleye fishing, you have a great opportunity to contribute to a meaningful research project that will help guide TWRA management of walleye moving forward!\nBetween the 1980’s - 2011, the Tennessee Wildlife Resources Agency (TWRA) were stocking Sauger (Sander canadensis), a popular sportfish amongst anglers. However, due to inconsistent and unpredictable spawning success, TWRA made the decision to change their stocking practices to stocking walleye.\nThis is where my project comes in! In partnership with TWRA (shoutout to Mike Jolley and Joey Root of Region 3), we will be deploying passive acoustic receivers throughout Watts Bar Reservoir, and surgically implanting acoustic transmitters into walleye to start tracking their movements throughout the reservoir!"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Watts Bar Walleye",
+    "section": "About Me",
+    "text": "About Me\nI’m a second year graduate student at the University of Tennessee - Knoxville, under the advisement of Dr. Lisa Izzo. Part of the School of Natural Resources, I’m obtaining my M.S. in fisheries science! My project will be documenting habitat use and spawning in walleye (Sander vitreus) in Watts Bar Reservoir."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Watts Bar Walleye",
+    "section": "Education",
+    "text": "Education\nM.S. Fisheries Science, University of Tennessee - Knoxville | Knoxville, TN | August 2024 - Present\nB.S. Marine Biology, College of Charleston | Charleston, SC | 2016 - 2020"
+  },
+  {
+    "objectID": "Project Methods_2.html",
+    "href": "Project Methods_2.html",
+    "title": "Acoustic Telemetry",
+    "section": "",
+    "text": "Acoustic telemetry, simply, is the use of sound to track aquatic animals through water!\n\n\n\nGraphic representation of how acoustic telemetry works. An acoustic receiver will detect a signal from an acoustic transmitter implanted inside the walleye."
+  },
+  {
+    "objectID": "Project Methods_2.html#what-is-it",
+    "href": "Project Methods_2.html#what-is-it",
+    "title": "Acoustic Telemetry",
+    "section": "",
+    "text": "Acoustic telemetry, simply, is the use of sound to track aquatic animals through water!\n\n\n\nGraphic representation of how acoustic telemetry works. An acoustic receiver will detect a signal from an acoustic transmitter implanted inside the walleye."
+  },
+  {
+    "objectID": "Project Methods_2.html#acoustic-transmitters",
+    "href": "Project Methods_2.html#acoustic-transmitters",
+    "title": "Acoustic Telemetry",
+    "section": "Acoustic Transmitters",
+    "text": "Acoustic Transmitters\nAcoustic transmitters are small tags we surgically implant into the belly cavity of the walleye. Every 60-120 seconds, there’s a signal we call a “ping” that is transmitted out into the water column, and if it’s passing by a receiver, will be logged and used later to track the path of the fish. These transmitters will last for a total of two years.\nPretty cool, right?\n\n\n\n\n\n\n\nThis is what the acoustic transmitters look like."
+  },
+  {
+    "objectID": "Project Methods_2.html#how-we-achieve-this",
+    "href": "Project Methods_2.html#how-we-achieve-this",
+    "title": "Acoustic Telemetry",
+    "section": "How we achieve this",
+    "text": "How we achieve this\nTo achieve this, we use acoustic receivers for long term, continuous tracking of aquatic animals! Since the receivers are always on, they are constantly recording temperature and signals from acoustic transmitters that are implanted within the walleye.\n\n\n\n\n\n\n\nThis is an acoustic receiver."
+  },
+  {
+    "objectID": "Project Methods_2.html#how-will-i-know-if-ive-caught-a-fish-part-of-this-study",
+    "href": "Project Methods_2.html#how-will-i-know-if-ive-caught-a-fish-part-of-this-study",
+    "title": "Acoustic Telemetry",
+    "section": "How will I know if I’ve caught a fish part of this study?",
+    "text": "How will I know if I’ve caught a fish part of this study?\nWonderful question! All walleye that are tagged will have an orange loop tag between its first and second dorsal fin (see below)! This tag will have a phone number and loop tag number on it, so when you call it in, we can quickly identify the walleye!\n\n\n\n\n\n\n\nWalleye photo credits to the Wisconsin Cooperative Fishery Research Unit (WCFRU)"
+  },
+  {
+    "objectID": "Static Temperature Graphs.html",
+    "href": "Static Temperature Graphs.html",
+    "title": "Static Temperature Data",
+    "section": "",
+    "text": "This website still updates as data comes in. This is to reflect and document the duration of my study, so this will continuously change as I gather more data! :)\n\n\n\n\n\n\nI belive it’s important to connect the community with science everyday, even in small ways! This page is dedicated to some temperature data I’ve collected thus far in my studies! It’s so interesting to look at and I try to make them so folks can understand what’s happening! Plus, I find it enjoyable being able to show people how cool science can be!"
+  },
+  {
+    "objectID": "Static Temperature Graphs.html#river-temperature-plots",
+    "href": "Static Temperature Graphs.html#river-temperature-plots",
+    "title": "Static Temperature Data",
+    "section": "",
+    "text": "This website still updates as data comes in. This is to reflect and document the duration of my study, so this will continuously change as I gather more data! :)\n\n\n\n\n\n\nI belive it’s important to connect the community with science everyday, even in small ways! This page is dedicated to some temperature data I’ve collected thus far in my studies! It’s so interesting to look at and I try to make them so folks can understand what’s happening! Plus, I find it enjoyable being able to show people how cool science can be!"
+  },
+  {
+    "objectID": "Static Temperature Graphs.html#emory-river-temperature",
+    "href": "Static Temperature Graphs.html#emory-river-temperature",
+    "title": "Static Temperature Data",
+    "section": "Emory River Temperature",
+    "text": "Emory River Temperature\n\n\n\n\n\n\nThe Emory River experience record highs and record low river levels during 2025"
+  },
+  {
+    "objectID": "Static Temperature Graphs.html#temperature-of-tennessee-river---near-browder-shoals",
+    "href": "Static Temperature Graphs.html#temperature-of-tennessee-river---near-browder-shoals",
+    "title": "Static Temperature Data",
     "section": "Temperature of Tennessee River - Near Browder Shoals",
     "text": "Temperature of Tennessee River - Near Browder Shoals\nThe area is also known as Browder Bend or colloquially understood as the area near the A-Frame house.\nThe temperature in this area doesn’t quite reach the lethal limit, but toes the line during the summer."
   },
   {
-    "objectID": "data.html#clinch-river-temperature",
-    "href": "data.html#clinch-river-temperature",
-    "title": "Data",
+    "objectID": "Static Temperature Graphs.html#clinch-river-temperature",
+    "href": "Static Temperature Graphs.html#clinch-river-temperature",
+    "title": "Static Temperature Data",
     "section": "Clinch River Temperature",
-    "text": "Clinch River Temperature\nYou can look at the monthly temperature of the Clinch River from April 2025 - February 2026!\nThe Clinch stays relatively cool during the hottest times during the summer! Which also makes it ideal for temps for paddling, kayaking, and swimming!\n\n\n\n\n\n\n\n\n[1] size\n&lt;0 rows&gt; (or 0-length row.names)"
-  },
-  {
-    "objectID": "How can you help Page.html",
-    "href": "How can you help Page.html",
-    "title": "How Can You Help?",
-    "section": "",
-    "text": "As an angler, you can provide some very useful information for my project! Our goal is to assist TWRA in understanding movements and habitat use of walleye in the reservoir, and provide information that can be useful to improving stocking practices for the species.\n\n\n\nPhoto credit to the Wisconsin Fishery Cooperative Research Unit (WFCRU)\n\n\n\n\nIf you capture a walleye that has a loop tag, this is what you can do to help contribute to the project (and get your photo on this website as an acknowledgement)!\n\n\n\nTry to keep the walleye alive. This is critical because we encourage you to release the fish once you’ve contacted us!\n\n\n\nCall myself (Brittnany) first, and if you are not able to reach me for any reason then you can call TWRA, but I will be the first point of contact! We will have a series of questions for you such as general capture location, length, and weight of the walleye you caught!\nIf for any reason the walleye is dead or if you have to harvest it, no problem! We still ask that you remove the acoustic transmitter that is located in the belly of the fish and return it to the university. These are expensive pieces of equipment, and we would like to get them back! These tags will also have sensors on them that we need to download, so getting them back is a huge help to the project. It is also helpful for me to know the fate of the fish!\nSnap a photo of the loop tag, which will have my phone number on it so you can refer to it later!\n\n\n\nSnap a photo with your catch and email it to us! We want to see some pearly whites and anglers having fun fishing!\n\n\n\nWe would greatly appreciate it if you would consider releasing your walleye. The longer these tagged fish are swimming around in Watts Bar, the more information we can get, providing TWRA with information that can help continue to improve the walleye fishery! Please leave the loop tag attached to the fish when you release it, as it will be used to identify the fish again later!"
-  },
-  {
-    "objectID": "How can you help Page.html#what-can-you-do",
-    "href": "How can you help Page.html#what-can-you-do",
-    "title": "How Can You Help?",
-    "section": "",
-    "text": "As an angler, you can provide some very useful information for my project! Our goal is to assist TWRA in understanding movements and habitat use of walleye in the reservoir, and provide information that can be useful to improving stocking practices for the species.\n\n\n\nPhoto credit to the Wisconsin Fishery Cooperative Research Unit (WFCRU)\n\n\n\n\nIf you capture a walleye that has a loop tag, this is what you can do to help contribute to the project (and get your photo on this website as an acknowledgement)!\n\n\n\nTry to keep the walleye alive. This is critical because we encourage you to release the fish once you’ve contacted us!\n\n\n\nCall myself (Brittnany) first, and if you are not able to reach me for any reason then you can call TWRA, but I will be the first point of contact! We will have a series of questions for you such as general capture location, length, and weight of the walleye you caught!\nIf for any reason the walleye is dead or if you have to harvest it, no problem! We still ask that you remove the acoustic transmitter that is located in the belly of the fish and return it to the university. These are expensive pieces of equipment, and we would like to get them back! These tags will also have sensors on them that we need to download, so getting them back is a huge help to the project. It is also helpful for me to know the fate of the fish!\nSnap a photo of the loop tag, which will have my phone number on it so you can refer to it later!\n\n\n\nSnap a photo with your catch and email it to us! We want to see some pearly whites and anglers having fun fishing!\n\n\n\nWe would greatly appreciate it if you would consider releasing your walleye. The longer these tagged fish are swimming around in Watts Bar, the more information we can get, providing TWRA with information that can help continue to improve the walleye fishery! Please leave the loop tag attached to the fish when you release it, as it will be used to identify the fish again later!"
-  },
-  {
-    "objectID": "Media and Press.html#section",
-    "href": "Media and Press.html#section",
-    "title": "Media",
-    "section": "2026",
-    "text": "2026\nTennessee WildCast\nWalleye Fishing on Fire!\nInside the Walleye Boom: Fast Growth, Big Bites & Hatchery Heroes"
-  },
-  {
-    "objectID": "Media and Press.html#section-1",
-    "href": "Media and Press.html#section-1",
-    "title": "Media",
-    "section": "2025",
-    "text": "2025\nNews Channel 9:\nTennessee anglers: Be on the lookout for tagged walleye\nThe Chattanoogan:\nTWRA Announces Walleye Research Underway on Watts Bar\nTennessee Wildlife Resources Agency Blog\nWalleye Project Being Conducted at Watts Bar\nUT School of Natural Resources: Step Outside Series\nStep Outside: Brittnany Graham on walleye research at Watts Bar Reservoir"
-  },
-  {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Predicting House Prices with Machine Learning\n\n\n\nPython\n\n\nMachine Learning\n\n\nData Cleaning\n\n\n\nThis project involves using machine learning algorithms to predict house prices based on various features such as location, size, and amenities. It includes data cleaning, feature engineering, and model selection.\n\n\n\nJan 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCustomer Segmentation Using Clustering Techniques\n\n\n\nR\n\n\nMachine Learning\n\n\nClustering\n\n\nStatistical Modelling\n\n\n\nThis project focuses on segmenting customers into different groups based on their purchasing behavior and demographics. It uses clustering algorithms like K-means and hierarchical clustering to identify distinct customer segments.\n\n\n\nApr 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVisualizing Global CO2 Emissions\n\n\n\nR\n\n\nData Visualization\n\n\nEnvironmental Science\n\n\n\nThis project involves creating visualizations to show trends in global CO2 emissions over time. It includes data extraction from public databases, data cleaning, and using visualization libraries to create interactive charts and graphs.\n\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Clinch River Temperature\nYou can look at the monthly temperature of the Clinch River from April 2025 - February 2026!\nThe Clinch stays relatively cool during the hottest times during the summer! Which also makes it ideal for temps for paddling, kayaking, and swimming!\n\n\n\n\n\n\n\n\n\nAgain, these are all preliminary temperature data. I will have at least a complete year of data when I go back to the field and download more data from the receivers to update this page!"
   }
 ]

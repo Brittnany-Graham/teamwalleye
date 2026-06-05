@@ -82,7 +82,7 @@ gtag('config', 'G-7WF0FMD3SS', { 'anonymize_ip': true});
 
 <meta property="og:title" content="Acoustic Telemetry – Watts Bar Walleye Project">
 <meta property="og:description" content="">
-<meta property="og:image" content="Telemetry visual.jpg">
+<meta property="og:image" content="https://brittnany-graham.quarto.pub/watts-bar-project/Telemetry visual.jpg">
 <meta property="og:site_name" content="Watts Bar Walleye Project">
 <meta property="og:image:alt" content="Graphic representation of how acoustic telemetry works. An acoustic receiver will detect a signal from an acoustic transmitter implanted inside the walleye.">
 </head>
@@ -156,8 +156,8 @@ gtag('config', 'G-7WF0FMD3SS', { 'anonymize_ip': true});
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-data">    
         <li>
-    <a class="dropdown-item" href="./data.html">
- <span class="dropdown-text">Data</span></a>
+    <a class="dropdown-item" href="./Static Temperature Graphs.html">
+ <span class="dropdown-text">Static Temperature Data</span></a>
   </li>  
     </ul>
   </li>
@@ -342,7 +342,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/brittnany-graham\.quarto\.pub\/watts-bar-project");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
