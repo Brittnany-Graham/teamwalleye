@@ -12,7 +12,7 @@ execute:
   results: 'hide'
 ---
 
-## Interactive Temperature Plots
+## River Temperature Plots
 
 ::: {.callout-note appearance="simple"}
 ## This website still updates as data comes in. This is to reflect and document the duration of my study, so this will continuously change as I gather more data! :)
@@ -26,8 +26,6 @@ library(tidyverse)
 library(ggpubr)
 library(stringr)
 library(viridis)
-#install.packages("plotly")
-library(plotly)
 ```
 
 ```{r}
@@ -73,17 +71,6 @@ This is showing the general temperature of the Emory River.
 As you can see, the temperature gets very warm during the summer, which means this could explain why Walleye might leave the area.
 
 ```{r}
-emory_temp <- temp %>%
-  filter(ReceiverNumber == "802023")
-
-# Changed to posixct
-
-emory_temp$DateAndTimeUTC <- mdy_hm(emory_temp$DateAndTimeUTC)
-
-emory_temp$Date <- mdy(emory_temp$Date)
-
-## Graphing it now
-
 emory_temp_plot <- plot_ly(
   data = emory_temp, # dataframe
   x = ~DateAndTimeUTC, # X-axis variable (Date and Time so it keeps the raw data)
@@ -366,11 +353,4 @@ showlegend = FALSE
   )
 
 new_clinch_plot
-```
-
-```{r}
-file.info(list.files("_site", recursive = TRUE, full.names = TRUE)) |>
-  dplyr::arrange(desc(size)) |>
-  dplyr::select(size) |>
-  head(20)
 ```

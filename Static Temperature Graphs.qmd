@@ -1,0 +1,240 @@
+---
+title: "Static Temperature Data"
+author: "Brittnany Graham"
+editor: visual
+---
+
+## River Temperature Plots
+
+::: callout-note
+## This website still updates as data comes in. This is to reflect and document the duration of my study, so this will continuously change as I gather more data! :)
+:::
+
+I belive it's important to connect the community with science everyday, even in small ways!
+This page is dedicated to some temperature data I've collected thus far in my studies!
+It's so interesting to look at and I try to make them so folks can understand what's happening!
+Plus, I find it enjoyable being able to show people how cool science can be!
+
+```{r}
+library(tidyverse)
+library(ggpubr)
+library(stringr)
+library(viridis)
+```
+
+```{r}
+temp_csv_files <- list.files(path = "C:/Users/bgraha33/OneDrive - University of Tennessee/Desktop/New Dataset/Temperature CSV Files", pattern = '\\.csv$', full.names = TRUE)
+
+
+temp_list <- map(temp_csv_files, read.csv)
+combined_temp_data <- bind_rows(temp_list)
+
+
+temp <- combined_temp_data
+
+#converting it to Fahrenheit
+
+temp <- temp %>%
+  mutate(TemperatureF = TemperatureC * 9/5 + 32)
+
+# Rounding up to the nearest whole number
+
+temp <- temp %>%
+  mutate(TemperatureF = round(TemperatureF))
+
+
+## Clinch River
+
+## Receiver 802012
+
+clinch_river_temp <- temp %>%
+  filter(ReceiverNumber == "802012")
+
+clinch_river_temp$DateAndTimeUTC <- mdy_hm(clinch_river_temp$DateAndTimeUTC)
+clinch_river_temp$Date <- mdy(clinch_river_temp$Date)
+
+```
+
+## Emory River Temperature
+
+::: callout-important
+## The Emory River experience record highs and record low river levels during 2025
+:::
+
+```{r}
+emory_temp <- temp %>%
+  filter(ReceiverNumber == "802023")
+
+# Changed to posixct
+
+emory_temp$DateAndTimeUTC <- mdy_hm(emory_temp$DateAndTimeUTC)
+
+emory_temp$Date <- mdy(emory_temp$Date)
+
+## Graphing it now
+
+emory_static_plot <- ggplot(emory_temp, aes(x = Date, y = TemperatureF)) +
+  annotate("rect",
+           xmin = min(emory_temp$Date),
+           xmax = max(emory_temp$Date),
+           ymin = 64.5,
+           ymax = 72,
+           fill = "#FDB736",
+           alpha = 0.3) +
+  annotate("label",
+           x = as.Date("2025-04-25"),
+           y = 85,
+           label = "Lethal Thermal Limit (27°C)",
+           fill = "white",
+           size = 4) +
+  annotate("label",
+           x = as.Date("2025-12-25"),
+           y = 70,
+           label = "Optimal Growth Range",
+           fill = "white",
+           size = 4) +
+  geom_line(aes(color = TemperatureF), linewidth = 1) +
+  geom_hline(yintercept = 81,
+             color = "#D55E00",
+             linetype = "dashed",
+             linewidth = 1) +
+  scale_color_viridis(option = "C") +
+  scale_x_date(date_breaks = "1 month",
+               date_labels = "%b \n%Y") +
+  scale_y_continuous(breaks = seq(0, 90, 5)) +
+  labs(title = "Emory River Daily Temperature",
+       x = "Month",
+       y = "Temperature (°F)") +
+  theme_classic(base_size = 14) +
+  theme(plot.title = element_text(size = 16, face = "bold"),
+        legend.position = "none",
+        axis.title.x = element_text(face = "bold", size = 12),
+        axis.title.y = element_text(face = "bold", size = 12),
+        axis.text.x = element_text(face = "bold", size = 10),
+        axis.text.y = element_text(face = "bold", size = 10),)
+
+print(emory_static_plot)
+```
+
+## Temperature of Tennessee River - Near Browder Shoals
+
+The area is also known as Browder Bend or colloquially understood as the area near the A-Frame house.
+
+The temperature in this area doesn't quite reach the lethal limit, but toes the line during the summer.
+
+```{r}
+tn_river <- temp %>%
+  filter(ReceiverNumber == "802025")
+
+tn_river$Date <- mdy(tn_river$Date)
+
+
+## Graphing
+tn_plot <- ggplot(tn_river, aes(x = Date, y = TemperatureF)) +
+  annotate("rect",
+           xmin = min(tn_river$Date),
+           xmax = max(tn_river$Date),
+           ymin = 64.5,
+           ymax = 72,
+           fill = "#FDB736",
+           alpha = 0.3) +
+  annotate("label",
+           x = as.Date("2025-04-25"),
+           y = 85,
+           label = "Lethal Thermal Limit (27°C)",
+           fill = "white",
+           size = 4) +
+  annotate("label",
+           x = as.Date("2025-07-20"),
+           y = 70,
+           label = "Optimal Growth Range",
+           fill = "white",
+           size = 4) +
+  geom_line(aes(color = TemperatureF), linewidth = 1) +
+  geom_hline(yintercept = 81,
+             color = "#D55E00",
+             linetype = "dashed",
+             linewidth = 1) +
+  scale_color_viridis(option = "C") +
+  scale_x_date(date_breaks = "1 month",
+               date_labels = "%b \n%Y") +
+  scale_y_continuous(limits = c(30, 90),
+                     breaks = seq(30, 90, 5))+ 
+  labs(title = "Tennessee River Daily Temperature",
+       x = "Month",
+       y = "Temperature (°F)") +
+  theme_classic(base_size = 14) +
+  theme(plot.title = element_text(size = 16, face = "bold"),
+        legend.position = "none",
+        axis.title.x = element_text(face = "bold", size = 12),
+        axis.title.y = element_text(face = "bold", size = 12),
+        axis.text.x = element_text(face = "bold", size = 10),
+        axis.text.y = element_text(face = "bold", size = 10),)
+
+tn_plot
+```
+
+## Clinch River Temperature
+
+You can look at the monthly temperature of the Clinch River from April 2025 - February 2026!
+
+The Clinch stays relatively cool during the hottest times during the summer!
+Which also makes it ideal for temps for paddling, kayaking, and swimming!
+
+```{r}
+clinch_river_temp <- temp %>%
+  filter(ReceiverNumber == "802012")
+
+clinch_river_temp$DateAndTimeUTC <- mdy_hm(clinch_river_temp$DateAndTimeUTC)
+clinch_river_temp$Date <- mdy(clinch_river_temp$Date)
+
+# str(clinch_river_temp)
+
+## Graphing it
+clinch_plot <- ggplot(clinch_river_temp, aes(x = Date, y = TemperatureF)) +
+  annotate("rect",
+           xmin = min(clinch_river_temp$Date),
+           xmax = max(clinch_river_temp$Date),
+           ymin = 64.5,
+           ymax = 72,
+           fill = "#FDB736",
+           alpha = 0.3) +
+  annotate("label",
+           x = as.Date("2025-04-25"),
+           y = 85,
+           label = "Lethal Thermal Limit (27°C)",
+           fill = "white",
+           size = 4) +
+  annotate("label",
+           x = as.Date("2026-01-07"),
+           y = 70,
+           label = "Optimal Growth Range",
+           fill = "white",
+           size = 4) +
+  geom_line(aes(color = TemperatureF), linewidth = 1) +
+  geom_hline(yintercept = 81,
+             color = "#D55E00",
+             linetype = "dashed",
+             linewidth = 1) +
+  scale_color_viridis(option = "C") +
+  scale_x_date(date_breaks = "1 month",
+               date_labels = "%b \n%Y") +
+  scale_y_continuous(limits = c(30, 90),
+                     breaks = seq(30, 90, 5))+ 
+  labs(title = "Clinch River Daily Temperature",
+       x = "Month",
+       y = "Temperature (°F)") +
+  theme_classic(base_size = 14) +
+  theme(plot.title = element_text(size = 16, face = "bold"),
+        legend.position = "none",
+        axis.title.x = element_text(face = "bold", size = 12),
+        axis.title.y = element_text(face = "bold", size = 12),
+        axis.text.x = element_text(face = "bold", size = 10),
+        axis.text.y = element_text(face = "bold", size = 10),)
+
+clinch_plot
+
+```
+
+Again, these are all preliminary temperature data.
+I will have at least a complete year of data when I go back to the field and download more data from the receivers to update this page!
